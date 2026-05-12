@@ -1,0 +1,45 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches: [main, master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to VPS
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H $VPS_HOST >> ~/.ssh/known_hosts
+
+          tar -czf build.tar.gz .next package.json package-lock.json public
+          scp -i ~/.ssh/deploy_key build.tar.gz $VPS_USER@$VPS_HOST:/var/www/allergen/
+
+          ssh -i ~/.ssh/deploy_key $VPS_USER@$VPS_HOST << 'EOSSH'
+            cd /var/www/allergen
+            tar -xzf build.tar.gz
+            npm install --production
+            systemctl restart allergen-chip-challenge
+          EOSSH

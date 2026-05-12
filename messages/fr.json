@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "analysis": "Analyse",
+    "insights": "Aperçus",
+    "about": "À propos",
+    "data": "Ensemble de données"
+  },
+  "hero": {
+    "title": "Allergen Chip Challenge",
+    "subtitle": "Analyse des Modèles de Sensibilisation aux Allergènes Basée sur l'IA",
+    "description": "Analyse d'apprentissage automatique avancée des profils d'allergènes de 4 271 patients provenant de 12 laboratoires d'allergologie français"
+  },
+  "dashboard": {
+    "overview": "Aperçu de l'ensemble de données",
+    "techniques": "Techniques d'IA appliquées",
+    "patients": "Total des patients",
+    "allergens": "Types d'allergènes analysés",
+    "labs": "Laboratoires"
+  },
+  "ai_techniques": {
+    "classification": "Classification",
+    "prediction": "Prédiction",
+    "pattern_recognition": "Reconnaissance de motifs",
+    "clustering": "Clustering",
+    "anomaly_detection": "Détection des anomalies",
+    "discovery_ai": "IA de découverte",
+    "recommendation": "Système de recommandation",
+    "behavioral_ai": "IA comportementale",
+    "xai": "IA explicable",
+    "cdss": "Système d'aide à la décision clinique",
+    "generative_ai": "IA générative",
+    "multimodal_ai": "IA multimodale",
+    "longitudinal_ai": "IA longitudinale",
+    "reinforcement_learning": "Apprentissage par renforcement",
+    "digital_phenotyping": "Phénotypage numérique",
+    "risk_stratification": "Stratification des risques",
+    "survival_modeling": "Modélisation de survie",
+    "causal_ai": "IA causale",
+    "federated_learning": "Apprentissage fédéré",
+    "agentic_ai": "IA agentique"
+  },
+  "insights": {
+    "key_findings": "Résultats clés",
+    "patient_segmentation": "Segmentation des patients",
+    "allergen_patterns": "Modèles d'allergènes",
+    "risk_factors": "Facteurs de risque"
+  }
+}

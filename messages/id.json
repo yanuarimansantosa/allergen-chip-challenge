@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "analysis": "Analisis",
+    "insights": "Wawasan",
+    "about": "Tentang",
+    "data": "Dataset"
+  },
+  "hero": {
+    "title": "Allergen Chip Challenge",
+    "subtitle": "Analisis Berbasis AI terhadap Pola Sensitisasi Alergen",
+    "description": "Analisis machine learning canggih dari profil alergen 4.271 pasien dari 12 laboratorium allergology Prancis"
+  },
+  "dashboard": {
+    "overview": "Ringkasan Dataset",
+    "techniques": "Teknik AI yang Diterapkan",
+    "patients": "Total Pasien",
+    "allergens": "Jenis Alergen Dianalisis",
+    "labs": "Laboratorium"
+  },
+  "ai_techniques": {
+    "classification": "Klasifikasi",
+    "prediction": "Prediksi",
+    "pattern_recognition": "Pengenalan Pola",
+    "clustering": "Pengelompokan",
+    "anomaly_detection": "Deteksi Anomali",
+    "discovery_ai": "AI Penemuan",
+    "recommendation": "Sistem Rekomendasi",
+    "behavioral_ai": "AI Perilaku",
+    "xai": "AI yang Dapat Dijelaskan",
+    "cdss": "Sistem Dukungan Keputusan Klinis",
+    "generative_ai": "AI Generatif",
+    "multimodal_ai": "AI Multimodal",
+    "longitudinal_ai": "AI Longitudinal",
+    "reinforcement_learning": "Pembelajaran Penguatan",
+    "digital_phenotyping": "Fenotip Digital",
+    "risk_stratification": "Stratifikasi Risiko",
+    "survival_modeling": "Pemodelan Survival",
+    "causal_ai": "AI Kausal",
+    "federated_learning": "Pembelajaran Terdistribusi",
+    "agentic_ai": "AI Agentic"
+  },
+  "insights": {
+    "key_findings": "Temuan Utama",
+    "patient_segmentation": "Segmentasi Pasien",
+    "allergen_patterns": "Pola Alergen",
+    "risk_factors": "Faktor Risiko"
+  }
+}

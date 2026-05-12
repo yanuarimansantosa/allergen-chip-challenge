@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "analysis": "Analysis",
+    "insights": "Insights",
+    "about": "About",
+    "data": "Dataset"
+  },
+  "hero": {
+    "title": "Allergen Chip Challenge",
+    "subtitle": "AI-Powered Analysis of Allergen Sensitization Patterns",
+    "description": "Advanced machine learning analysis of 4,271 patient allergen profiles from 12 French allergology laboratories"
+  },
+  "dashboard": {
+    "overview": "Dataset Overview",
+    "techniques": "AI Techniques Applied",
+    "patients": "Total Patients",
+    "allergens": "Allergen Types Analyzed",
+    "labs": "Laboratories"
+  },
+  "ai_techniques": {
+    "classification": "Classification",
+    "prediction": "Prediction",
+    "pattern_recognition": "Pattern Recognition",
+    "clustering": "Clustering",
+    "anomaly_detection": "Anomaly Detection",
+    "discovery_ai": "Discovery AI",
+    "recommendation": "Recommendation System",
+    "behavioral_ai": "Behavioral AI",
+    "xai": "Explainable AI",
+    "cdss": "Clinical Decision Support",
+    "generative_ai": "Generative AI",
+    "multimodal_ai": "Multimodal AI",
+    "longitudinal_ai": "Longitudinal AI",
+    "reinforcement_learning": "Reinforcement Learning",
+    "digital_phenotyping": "Digital Phenotyping",
+    "risk_stratification": "Risk Stratification",
+    "survival_modeling": "Survival Modeling",
+    "causal_ai": "Causal AI",
+    "federated_learning": "Federated Learning",
+    "agentic_ai": "Agentic AI"
+  },
+  "insights": {
+    "key_findings": "Key Findings",
+    "patient_segmentation": "Patient Segmentation",
+    "allergen_patterns": "Allergen Patterns",
+    "risk_factors": "Risk Factors"
+  }
+}

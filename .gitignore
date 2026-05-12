@@ -1,0 +1,14 @@
+node_modules/
+.next/
+dist/
+build/
+*.env.local
+*.env.*.local
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.csv
+*.xls
+*.pdf
+*.xlsx
