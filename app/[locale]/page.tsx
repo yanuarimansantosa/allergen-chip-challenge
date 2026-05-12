@@ -1,3 +1,5 @@
+'use client';
+
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Navigation from '@/components/Navigation';
