@@ -1,6 +1,5 @@
 'use client';
 
-import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
@@ -8,12 +7,7 @@ import Dashboard from '@/components/Dashboard';
 import PredictionForm from '@/components/PredictionForm';
 import Footer from '@/components/Footer';
 
-interface HomePageProps {
-  params: { locale: string };
-}
-
-export default function Home({ params: { locale } }: HomePageProps) {
-  setRequestLocale(locale);
+export default function Home() {
   const t = useTranslations();
 
   return (
