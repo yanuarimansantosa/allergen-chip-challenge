@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "process-data": "node scripts/processData.js"
+    "process-data": "node scripts/processData.js",
+    "test-api": "node scripts/test-api.js"
   },
   "dependencies": {
     "react": "^18.2.0",
