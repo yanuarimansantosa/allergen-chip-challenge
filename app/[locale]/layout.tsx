@@ -9,10 +9,6 @@ export const metadata: Metadata = {
   keywords: 'allergen, immunology, machine learning, classification, prediction',
 };
 
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
-
 export default function RootLayout({
   children,
   params: { locale },
