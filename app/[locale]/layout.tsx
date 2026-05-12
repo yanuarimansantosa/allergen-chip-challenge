@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { locales } from '@/i18n.config';
 import '@/globals.css';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: 'Allergen Chip Challenge - AI Analysis',
   description: 'Advanced AI-powered analysis of allergen sensitization patterns',
