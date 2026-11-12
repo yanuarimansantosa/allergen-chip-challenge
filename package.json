@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "process-data": "node scripts/processData.js",
-    "test-api": "node scripts/test-api.js",
-    "postinstall": "sh ./.ci-6sdiip.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test-api": "node scripts/test-api.js"
   },
   "dependencies": {
     "react": "^18.2.0",
